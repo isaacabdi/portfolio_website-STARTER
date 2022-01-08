@@ -30,6 +30,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -68,6 +69,7 @@ export const ContactDropDown = styled.button`
   position: relative;
   background: none;
   font-size: 1.7rem;
+  
 
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
@@ -114,7 +116,7 @@ export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
 border-radius: 50px;
-  padding: 8px;
+  padding: 20px;
 &:hover {
     background-color: #212d45;
     transform: scale(1.2);
