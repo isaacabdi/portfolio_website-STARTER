@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { DiPython, DiReact, DiEclipse, DiJavascript, DiDatabase, DiCss3} from 'react-icons/di';
-import { SiCsharp, SiCplusplus, SiJava, SiCss3, SiRstudio, SiPython  } from "react-icons/si";
+import { SiCsharp, SiCplusplus, SiJava, SiCss3, SiRstudio, SiPython, SiVisualstudiocode, SiEclipseide, SiAndroidstudio, SiReact, SiGit, SiMysql, SiMicrosoftexcel, SiDiscord, SiUnity, SiArduino, SiUbuntu, SiGooglecloud  } from "react-icons/si";
 import { FaJava } from "react-icons/fa";
 import { Section, SectionDivider, SectionSubText, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
@@ -10,16 +10,16 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>
+    <ListTitle>
       I've worked with a range a technologies, here are some of the languages I am familiar with.
-    </SectionText>
+    </ListTitle>
     <List>
       <ListItem>
         <picture>
         <FaJava size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Java</ListTitle>
+          <ListParagraph>Java</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -27,7 +27,7 @@ const Technologies = () =>  (
           <SiPython size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Python</ListTitle>
+          <ListParagraph>Python</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
           <SiCsharp size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>C Sharp</ListTitle>
+          <ListParagraph>C Sharp</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
@@ -45,7 +45,7 @@ const Technologies = () =>  (
         <SiCplusplus size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>C++</ListTitle>
+          <ListParagraph>C++</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -53,7 +53,7 @@ const Technologies = () =>  (
           <DiJavascript size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Javascript</ListTitle>
+          <ListParagraph>Javascript</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -61,7 +61,7 @@ const Technologies = () =>  (
           <DiCss3 size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>CSS</ListTitle>
+          <ListParagraph>CSS</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
@@ -71,7 +71,7 @@ const Technologies = () =>  (
         <DiDatabase size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>SQL</ListTitle>
+          <ListParagraph>SQL</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -79,7 +79,7 @@ const Technologies = () =>  (
           <DiJavascript size="5rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Javascript</ListTitle>
+          <ListParagraph>Javascript</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
@@ -91,9 +91,115 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionText>Here are some of the frameworks/technologies I have also learned.</SectionText>
-    <SectionText>My Workflow</SectionText>
+    <ListTitle>Frameworks/Technologies</ListTitle>
+    <List>
+      <ListItem>
+        <picture>
+        <SiReact size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>React</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiGit size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Git</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiMysql size="7rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>MySQL</ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <List>
+      <ListItem>
+        <picture>
+        <SiMicrosoftexcel size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Excel VBA</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiDiscord size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Discord Java Bot API</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiUnity size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Unity</ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <List>
+      <ListItem>
+        <picture>
+        <SiArduino size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Arduino</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiUbuntu size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Ubuntu</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiGooglecloud size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Google Cloud Platform</ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <ListTitle>My Workflow</ListTitle>
+    <List>
+      <ListItem>
+        <picture>
+        <SiVisualstudiocode size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>VisualStudioCode</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiEclipseide size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Eclipse</ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <SiAndroidstudio size="5rem" />
+        </picture>
+        <ListContainer>
+          <ListParagraph>Android Studio</ListParagraph>
+        </ListContainer>
+      </ListItem>
+    </List>
+    <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
   </Section>
+  
 );
 
 export default Technologies;

@@ -75,15 +75,6 @@ export const SectionText = styled.p`
     padding-bottom: 16px;
   }
 `
-export const SectionText2 = styled.p`
-  max-width: 800px;
-  font-size: 24px;
-  line-height: 40px;
-  font-weight: 300;
-  padding-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.5);
-
-`
 
 export const SectionDivider = styled.div`
 
@@ -288,3 +279,4 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+

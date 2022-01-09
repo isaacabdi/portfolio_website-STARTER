@@ -9,12 +9,31 @@ const Projects = () => (
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-      {["Coming Soon??","Coming Soon??",""].map((project)=> (
-        <div>
-          {project}
-
-        </div>
-      ))}
+    {projects.map((p, i) => {
+        return (
+          <BlogCard key={i}>
+            <TitleContent>
+              <HeaderThree title>{p.title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo className="card-info">{p.description}</CardInfo>
+            <div>
+            <br></br>
+              <TitleContent>Coming Soon</TitleContent>
+              <TagList>
+                {p.tags.map((t, i) => {
+                  return <Tag key={i}>{t}</Tag>;
+                })}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={p.visit}>Code</ExternalLinks>
+              <ExternalLinks href={p.source}>Source</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        );
+      })}
+      <br></br><br></br><br></br><br></br><br></br>
     </GridContainer>
 
   </Section>
