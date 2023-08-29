@@ -4,11 +4,12 @@ import Link from 'next/link';
 import { Section, SectionText, SectionText2, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import { SocialIcons } from '../Header/HeaderStyles';
 
 
-const handleClick = () => {
-  window.open("/isaacresume.pdf");
-};
+  const handleClick = () => {
+    window.open("/isaacresume.pdf");
+  };
 
 const Hero = (props) => (
   <>
@@ -22,7 +23,10 @@ const Hero = (props) => (
         <SectionText>
         University Student and Junior Developer
         </SectionText>
-          <Button onClick={handleClick}>Learn More</Button>
+          <a href="/isaacresume.pdf" target="_blank">  
+            <Button>Learn More</Button>
+          </a>
+          
       </LeftSection>
     </Section>
   </>

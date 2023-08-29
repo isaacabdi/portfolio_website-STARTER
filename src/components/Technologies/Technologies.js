@@ -5,11 +5,13 @@ import { SiCsharp, SiCplusplus, SiJava, SiCss3, SiRstudio, SiPython, SiVisualstu
 import { FaJava } from "react-icons/fa";
 import { Section, SectionDivider, SectionSubText, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { SocialIcons } from '../Header/HeaderStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider divider />
+    <SectionDivider divider /> 
     <SectionTitle>Technologies</SectionTitle>
+    <br></br>
     <ListTitle>
       I've worked with a range a technologies, here are some of the languages I am familiar with.
     </ListTitle>
@@ -72,14 +74,6 @@ const Technologies = () =>  (
         </picture>
         <ListContainer>
           <ListParagraph>SQL</ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiJavascript size="5rem" />
-        </picture>
-        <ListContainer>
-          <ListParagraph>Javascript</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

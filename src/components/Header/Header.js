@@ -18,19 +18,13 @@ const Header = () =>  (
     </Div1>
     <Div2>
       <li>
-        <Link href="/#about">
-          <NavLink>About</NavLink>
-        </Link>
+        <NavLink href="https://isaacabdi.github.io/#about" >About</NavLink>
       </li>
       <li>
-        <Link href="/#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
+        <NavLink href="https://isaacabdi.github.io/#tech" >Technologies</NavLink>
       </li>        
       <li>
-        <Link href="/#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
+        <NavLink href="https://isaacabdi.github.io/#projects" >Projects</NavLink>
       </li>        
     </Div2>
       <Div3>
